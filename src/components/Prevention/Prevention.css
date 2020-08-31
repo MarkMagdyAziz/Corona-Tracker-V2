@@ -1,0 +1,56 @@
+
+.container1 {
+  background-color:#fff;
+  margin-top: 40px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+.container1 h1,
+.container1 .h1 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 38px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.container1 h3,
+.container1 .h3 {
+  font-weight: bold;
+  clear: both;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.container1 p,
+.container1 .p {
+font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 26px;
+} 
+.container1 a {
+    cursor: pointer;
+    text-decoration: none;
+    border-color: currentColor;
+    color: rgba(255, 0, 0, 0.9);
+
+}
+.container1 li {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+}
